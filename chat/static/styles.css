@@ -1,0 +1,58 @@
+* {
+  background-color: black !important;
+  bottom: 0%;
+}
+
+.bg-gray-700 {
+  background-color: rgb(29, 36, 46) !important;
+}
+
+
+
+.back-button {
+  position: fixed;
+  top: 4px;
+  left: 4px;
+  z-index: 10;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 50%;
+  padding: 2px;
+}
+
+.back-button svg {
+  width: 24px;
+  height: 24px;
+  fill: black;
+}
+
+.animate-typing {
+  display: inline-block;
+  overflow: hidden;
+  border-right: .15em solid #fff;
+  white-space: nowrap;
+  width: 0;
+  animation: typing 3s steps(30) 1s;
+  animation-fill-mode: forwards;
+  /* Keep animation at final state only during animation */
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+
+  100% {
+    border-color: transparent;
+  }
+}
